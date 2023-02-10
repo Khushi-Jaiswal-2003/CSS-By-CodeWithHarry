@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4th</title>
+        <style>
+        body {
+            background-color: cornflowerblue;
+            color: black;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>
+            4th page Content:)
+            <br>
+        </h1>
+        <h2>
+            {% if i1 %}<h2>Successfully..!!</h2>{% endif %}
+        </h2>
+        <h3>
+            Example 2:-
+            {% if i1 and i2 %}And operator{% endif %}
+        </h3>
+        <h3>
+            Example 3:-
+            {% if i1 or i2 %}Or operator{% endif %}
+        </h3>
+        <h3>
+            Example 4:-
+            {% if not i2 %}Not operator{% endif %}
+        </h3>
+        <h3>
+            Example 5:-
+            {% if i1 == "Khushi" %}Equal equal operator{% endif %}
+        </h3>
+        <h3>
+            Example 6:-
+            {% if i1 == "Khushi" and i2 == 120 %}Equal with and operator{% endif %}
+        </h3>
+        <h3>
+            Example 7:-
+            {% if not i2 == 100 %}Equal with not operator{% endif %}
+        </h3>
+        <h3>
+            Example 8:-
+            {% if i1|length >= 6 %}Greater than or equal to with filter operator{% endif %}
+        </h3>
+        <h3>
+            Example 9:-
+            {% if i1 == "Python" %}
+                Present
+            {% else %}
+                Not Present
+            {% endif %}
+        </h3>
+        <h3>
+            Example 10:-
+            {% if i1 %}
+                If-elif-else
+            {% elif i2 %}
+                Present
+            {% else %}
+                Not Present
+            {% endif %}
+        </h3>
+    </body>
+</html>
